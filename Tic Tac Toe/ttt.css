@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(19, 10, 33);
+    text-align: center;
+}
+h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 670px;
+    color: white;
+    background-color: rgb(12, 57, 57);
+    width: 200px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px aqua;
+}
+label{
+    color: burlywood;
+    font-size: 1.5rem;
+}
+.name-inputs{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#player1-name{
+    border-radius: 15px;
+    background-color: black;
+    color: beige;
+    height: 3rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+#player2-name{
+    border-radius: 15px;
+    background-color: black;
+    color: beige;
+    height: 3rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+#start-game{
+    border-radius: 15px;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: beige;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    font-size: 8vmin;
+    color: burlywood;
+}
+#reset{
+    border-radius: 15px;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: beige;
+}
+#reset:hover{
+    background-color: coral;
+}
+#new-btn{
+    border-radius: 15px;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: beige;
+    margin-top: 5px;
+}
+#new-btn:hover{
+    background-color: coral;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem;
+}
+.hide{
+    display: none;
+}
+.box.o {
+    color: rgb(255, 162, 0); /* Blue color for O */
+}
+
+.box.x {
+    color: rgb(81, 0, 255); /* Red color for X */
+}
